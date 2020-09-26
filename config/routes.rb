@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :portfolios
   root to: 'pages#interiors'
   get 'about' => 'pages#about'
   get 'services' => 'pages#services'
