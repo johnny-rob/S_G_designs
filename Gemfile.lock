@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/johnny-rob/pinney_view_tool
+  revision: 2b53bba20080ba5ddb3b7c0ca03bd7567512a132
+  specs:
+    pinney_view_tool (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -196,6 +202,7 @@ DEPENDENCIES
   jbuilder (~> 2.7)
   jquery-rails
   listen (~> 3.2)
+  pinney_view_tool!
   puma (~> 4.1)
   rails (~> 6.0.3, >= 6.0.3.2)
   sass-rails (>= 6)
