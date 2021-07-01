@@ -13,12 +13,13 @@
  */
 
 @import "bootstrap";
-
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
 
 body {
   background-color: #fff;
   color: #333;
-  margin: 33px; }
+  margin: 60px;
+}
 
 body, p, ol, ul, td {
   font-family: verdana, arial, helvetica, sans-serif;
@@ -84,7 +85,46 @@ label {
 /*
 Custom
 */
-
+.headwrapper{
+  position: relative;
+  z-index: 999;
+}
+.header{
+  padding-bottom:50px;
+}
 .nav-item {
   margin: 0 10px;
+}
+.app-nav span{
+  margin-right:40px;
+}
+.masthead{
+  background-color:gray;
+}
+.logo{
+  font-family: ltc-bodoni-175;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.2em;
+  text-transform: none;
+  font-size: 36px;
+  letter-spacing: 0.194444em;
+}
+.logo-subtitle{
+  font-family: Julius Sans One;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.3em;
+  text-transform: none;
+  letter-spacing: .7em;
+  font-size: 19px;
+  color: #1a1a1a;
+}
+.nav{
+  font-family: europa;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: none;
+  letter-spacing: .5em;
+  font-size: 14px;
 }
