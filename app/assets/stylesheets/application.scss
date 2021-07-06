@@ -89,17 +89,37 @@ Custom
   position: relative;
   z-index: 999;
 }
-.header{
-  padding-bottom:50px;
-}
 .nav-item {
   margin: 0 10px;
 }
 .app-nav span{
-  margin-right:40px;
+  margin-left:40px;
+  justify-content: flex-end;
+  font-family: europa;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: none;
+  letter-spacing: .5em;
+  font-size: 14px;
+  margin-top:15px;
+  align-items: flex-end;
+}
+//removed the text decoration, but can't get the hover decoration to go away
+.nav_link {
+  text-decoration: none;
+}
+
+.nav_link:hover {
+  color: white;
+}
+
+.nav_link:active{
+  font-weight:bold;
 }
 .masthead{
-  background-color:gray;
+  padding-right:0;
+  padding-left: 0;
+  margin-bottom: 30px;
 }
 .logo{
   font-family: ltc-bodoni-175;
@@ -119,12 +139,4 @@ Custom
   letter-spacing: .7em;
   font-size: 19px;
   color: #1a1a1a;
-}
-.nav{
-  font-family: europa;
-  font-weight: 400;
-  font-style: normal;
-  text-transform: none;
-  letter-spacing: .5em;
-  font-size: 14px;
 }

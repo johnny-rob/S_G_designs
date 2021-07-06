@@ -9,27 +9,27 @@ module ApplicationHelper
     [
       {
         url: root_path,
-        title: 'Interiors'
+        title: 'interiors'
       },
       {
         url: about_path,
-        title: 'About'
+        title: 'about'
       },
       {
         url: services_path,
-        title: 'Services'
+        title: 'services'
       },
       ##{
         ##url: blogs_path,
         ##title: 'Blog'
       ##},
-      ##{
-        ##url: portfolios_path,
-        ##title: 'Design Portfolio'
-      ##},
+      {
+        url: portfolios_path,
+        title: 'design boards'
+      },
       {
         url: contact_path,
-        title: 'Contact'
+        title: 'contact'
       },
     ]
   end
