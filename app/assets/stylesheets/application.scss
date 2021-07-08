@@ -32,14 +32,16 @@ pre {
   font-size: 11px; }
 
 a {
-  color: #000; }
+  color: #000;
+  text-decoration: none;
+}
 
 a:visited {
   color: #666; }
 
 a:hover {
-  color: #fff;
-  background-color: #000; }
+  color: #000;
+}
 
 th {
   padding-bottom: 5px; }
@@ -94,6 +96,7 @@ Custom
 }
 .app-nav span{
   margin-left:40px;
+  padding-top: 10px;
   justify-content: flex-end;
   font-family: europa;
   font-weight: 400;
@@ -104,18 +107,11 @@ Custom
   margin-top:15px;
   align-items: flex-end;
 }
-//removed the text decoration, but can't get the hover decoration to go away
-.nav_link {
-  text-decoration: none;
+
+nav_link {
+  font-weight:400;
 }
 
-.nav_link:hover {
-  color: white;
-}
-
-.nav_link:active{
-  font-weight:bold;
-}
 .masthead{
   padding-right:0;
   padding-left: 0;
