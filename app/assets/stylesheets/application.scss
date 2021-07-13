@@ -14,6 +14,7 @@
 
 @import "bootstrap";
 @import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
+ @import url("https://use.typekit.net/qbk0bww.css");
 
 body {
   background-color: #fff;
@@ -138,4 +139,34 @@ nav_link {
 }
 .col-md-auto{
   padding:2px;
+}
+.spacer{
+  padding-bottom: 20px;
+}
+.main-copy{
+  font-family: Julius Sans One;
+  font-weight: 400;
+  font-size: 16px;
+  color: #524c4c;
+  letter-spacing: .2em;
+  margin-bottom: 10px;
+}
+.small-copy{
+  font-family: europa-light;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 1.6em;
+  font-size: 16px;
+  letter-spacing: 0em;
+  margin: 0 0 1em;
+  color: #524c4c;
+  white-space: pre-wrap;
+}
+.spacer{
+  padding-left: 30px;
+  position: relative;
+}
+.bottom{
+  position:absolute;
+  bottom:0;
 }
