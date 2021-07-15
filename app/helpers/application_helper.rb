@@ -24,7 +24,7 @@ module ApplicationHelper
         ##title: 'Blog'
       ##},
       {
-        url: portfolios_path,
+        url: design_boards_path,
         title: 'design boards'
       },
       {
