@@ -11,4 +11,8 @@ class PagesController < ApplicationController
 
   def contact
   end
+
+  def design_boards
+
+  end
 end
