@@ -152,6 +152,16 @@ nav_link {
   letter-spacing: .2em;
   margin-bottom: 10px;
 }
+.title-copy{
+  font-family: Julius Sans One;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 2.9em;
+  text-transform: none;
+  font-size: 26px;
+  letter-spacing: .2em;
+  margin: 1em 0 .5em;
+}
 .small-copy{
   font-family: europa-light;
   font-weight: 300;
@@ -174,4 +184,10 @@ nav_link {
 .board{
   padding:3px;
   justify-content: space-around;
+}
+.align{
+  text-align: center;
+}
+.white-space{
+  margin-top:50px;
 }
