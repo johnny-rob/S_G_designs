@@ -1,7 +1,7 @@
 module ApplicationHelper
 
   def copyright_generator
-    PinneyViewTool::Renderer.copyright 'Jonathan Pinney', 'All rights reserved.'
+    Sgdesigns::Renderer.copyright 'S.Golden Design.', 'All rights reserved.'
   end
 
   ##Navigation helper
