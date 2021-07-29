@@ -152,6 +152,54 @@ nav_link {
   letter-spacing: .2em;
   margin-bottom: 10px;
 }
+.main-title-copy{
+  font-family: Julius Sans One;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 2.9em;
+  text-transform: none;
+  font-size: 26px;
+  letter-spacing: .2em;
+  margin: 1em 0 .5em;
+}
+.title-copy{
+  font-family: Julius Sans One;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: none;
+  font-size: 26px;
+  letter-spacing: .2em;
+  margin: 0 0 .5em;
+}
+.quote-title{
+  text-align:center;
+  font-family: europa;
+  font-weight: bold;
+  font-style: normal;
+  line-height: 1.6em;
+  font-size: 20px;
+  color: #5e5e5e;
+  letter-spacing: 0em;
+  padding-top:3em;
+}
+.quote-copy{
+  text-align:center;
+  font-family: europa;
+  font-weight: 300;
+  font-style: italic;
+  line-height: 1.8em;
+  font-size: 16px;
+  letter-spacing: 0em;
+}
+.quote-attribute{
+  text-align:right;
+  font-family: europa;
+  font-weight: 300;
+  font-style: italic;
+  line-height: 1.8em;
+  font-size: 16px;
+  letter-spacing: 0em;
+}
 .small-copy{
   font-family: europa-light;
   font-weight: 300;
@@ -161,6 +209,17 @@ nav_link {
   letter-spacing: 0em;
   margin: 0 0 1em;
   color: #524c4c;
+  white-space: pre-wrap;
+}
+.small-copy-about{
+  font-family: europa-light;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 15px;
+  letter-spacing: .01em;
+  text-transform: none;
+  line-height: 2em;
+  text-align: center;
   white-space: pre-wrap;
 }
 .spacer{
@@ -174,4 +233,16 @@ nav_link {
 .board{
   padding:3px;
   justify-content: space-around;
+}
+.align{
+  text-align: center;
+}
+.white-space{
+  margin-top:50px;
+}
+.white-space-about{
+  margin-top: 2em;
+}
+.extra{
+  padding-bottom: 3em;
 }
