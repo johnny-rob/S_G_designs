@@ -1,6 +1,5 @@
 class PagesController < ApplicationController
   def interiors
-    @posts = Blog.all
   end
 
   def about

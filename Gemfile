@@ -50,9 +50,3 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'friendly_id', '~> 5.4'
 
 gem 'sgdesigns', git: "https://github.com/johnny-rob/sgdesigns"
-
-gem 'dotenv-rails', '~> 2.7', '>= 2.7.6'
-gem 'carrierwave', '~> 2.2', '>= 2.2.2'
-gem 'mini_magick', '~> 4.11'
-gem 'carrierwave-aws', '~> 1.5'
-gem 'aws-sdk-s3', require:false
