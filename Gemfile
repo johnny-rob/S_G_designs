@@ -51,3 +51,4 @@ gem 'friendly_id', '~> 5.4'
 
 gem 'sgdesigns', git: "https://github.com/johnny-rob/sgdesigns"
 gem 'dotenv-rails', '~> 2.7', '>= 2.7.6'
+gem 'aws-sdk-s3', '~> 1.104'
